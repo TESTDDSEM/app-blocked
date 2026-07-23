@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "title": "Hardcoded AWS secret key",
+    "severity": "Critical",
+    "file_path": "app/config.py",
+    "line": 42
+  },
+  {
+    "id": 102,
+    "title": "SQL injection in user search",
+    "severity": "High",
+    "file_path": "app/db.py",
+    "line": 17
+  }
+]
