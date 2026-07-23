@@ -1,0 +1,11 @@
+name: Security Workflow
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, synchronize, labeled, unlabeled]
+
+jobs:
+  sast:
+    uses: TESTDDSEM/security-workflows/.github/workflows/sast.yml@main
+    secrets: inherit
